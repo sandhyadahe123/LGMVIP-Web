@@ -1,0 +1,60 @@
+*{
+    font-family:'Poppins', sans-serif;
+  }
+  body{
+    background-image: linear-gradient(to right top, #d666a6, #cb6fba, #bd7acc, #aa85db, #938fe7, #7d9def, #68a9f3, #58b4f3, #5dc3f0, #73d1ea, #90dde5, #aee7e3);
+  }
+  .container{
+    width:30%;
+    margin: auto;
+    height: 9cm;
+    background-color: white;
+    text-align: center;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm; 
+    margin-top: 5cm;
+    margin-bottom: 4cm;
+  }
+  input{
+    height: 1cm;
+    width: 8cm;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  button{
+    height: 1.19cm;
+    width: 1.2cm;
+    border-radius: 8px;
+    color: white;
+    background-color: #A610A6;
+    border: none;
+  }
+  .todolist{
+    font-size: 18px;
+    max-height: 210px;
+    overflow-y: auto;
+  }
+  .task{
+    list-style-type:none;
+    height: 1.2cm;
+    line-height: 39px;
+    position: relative;
+    background: #f2f2f2;
+    margin-bottom: 15px;
+    right: 0.5cm;
+    cursor: default;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 25px;
+  }
+.delete{
+    color: white;
+    background-color: red;
+    right: 0px;
+    position: absolute;
+    display: none;
+  }
+.todolist .task:hover .delete {
+  display:inline;
+}
